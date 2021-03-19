@@ -247,13 +247,6 @@ nav{
     color: white;
 }
 
-.card-img{
-    z-index: 3;
-}
-.card-img:hover {
-    background-color: red;
-    z-index: 50;
-}
 .nome{
     text-align: left;
     font: normal normal bold 16px/25px Product Sans;
@@ -315,7 +308,6 @@ nav{
     background: #F46632 0% 0% no-repeat padding-box;
     border-radius: 10px;
     font: normal normal bold 14px/21px Product Sans;
-    
 }
 
 
@@ -401,6 +393,68 @@ nav{
     box-shadow: 2px 2px 10px 3px rgba(88, 88, 88, 0.1);
 }
 
-.schedulo-legenda{
+.schedulo-legenda-1{
+    color: white;
+    width: 2.2em;
+    background-color: black;
+    font: normal normal bold 20px/30px Product Sans;
+    padding: 0px;
+    padding-left: 0px;
+    margin-top: 0.5rem;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px; 
+
+}
+
+.schedulo-legenda-2{
     font: normal normal bold 20px/44px Product Sans;
 }
+
+.schedulo-legenda-3{
+    background-color: #F46632;
+    color: white;
+    width: 9rem;
+    font: normal normal bold 16px/32px Product Sans;
+    padding-left: 2.5rem;
+    padding-right: 2rem;
+    margin-top: 0.5rem;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+}
+
+footer{
+    background-color: white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.footer{
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+     color:white; 
+     text-decoration:white; 
+  
+}
+
+a:link { 
+ text-decoration: white;
+
+}
+ a:link {
+    color: white;
+ }
+ 
+ /* link que foi visitado */
+ a:visited {
+     color: white;
+ }
